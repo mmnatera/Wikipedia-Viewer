@@ -1,0 +1,102 @@
+body {
+  background: url(https://s3.us-east-2.amazonaws.com/marianaterawikipediaviewer/Wikipedia3DWallpaper.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+  margin-right: 80px;
+  
+}
+
+
+.content-wrap {
+  margin-top: 30px;
+  margin-right: 80px;
+  
+  
+  
+}
+
+#randomResult {
+  margin-right: 70px;
+
+}
+
+.container {
+    float: right;
+    opacity: .95;
+   
+    
+}
+
+.container2 {
+    float: right;
+    opacity: 0.95;
+     
+}
+
+a {
+  display: block;
+  color: #000;
+  background-color: none;
+  opacity: .95;
+  
+  
+}
+
+#search {
+    width: 60%;
+    height: 16px;
+    line-height: 20px;
+    font-size: 13px;
+    margin-right: 1px;
+  
+    
+}
+
+.btn-default {
+    padding: 0px;
+    line-height: 14px;
+    font-size: 14px; 
+    margin-right: 1px;
+}
+
+/* trying to make the anchors behave like divs */ 
+
+ul li {
+  float: center;
+  width: 750px;
+  list-style-type: none;
+  background: lightgray;
+  margin-right: 80px;
+  
+}
+
+@media screen and (max-width: 350px) {
+  h1 {
+    font-size: 35px;  
+  }
+  
+  #search {
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 18px;
+  }
+  
+  .text {
+    font-size: 15px;
+  }
+  
+}
+
+#footer {
+   background-color: none;
+   position:absolute;
+   bottom: 0px;
+   display: inline;
+   margin-left: 90%;
+     
+}
